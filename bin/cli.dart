@@ -9,7 +9,7 @@ void main(List<String> arguments) {
     print('your cli is a version of $version');
   } else if (arguments.first == 'help') {
     printUsage();
-  } else if (arguments.first == 'search')
+  } else if (arguments.first == 'search') {
     final inputArgs = arguments.length > 1 ? arguments.sublist(1) : null;
     searchWikipedia(inputArgs: inputArgs);
   } else {
@@ -18,7 +18,7 @@ void main(List<String> arguments) {
 }
 
 void printUsage() {
-  print("the following commands are valid: 'help','version' ");
+  print("the following commands are valid: 'help','version', 'search'");
 }
 
 void searchWikipedia({List<String>? inputArgs}) {
@@ -31,4 +31,3 @@ void searchWikipedia({List<String>? inputArgs}) {
   }
   print('Searching Wikipedia for: $articleTitle');
 }
-
