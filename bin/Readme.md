@@ -17,3 +17,7 @@ A command-line tool built using Dart to practice core concepts, command-line arg
 - Set up the repository structure and linked it with GitHub.
 - Parsed command-line arguments passed via `main(List<String> arguments)`.
 - Created interactive prompt handling using `stdin.readLineSync()`.
+### Day2: asynchronous programming
+- understanding future and async functions
+- fetching live data from Wikipedia API
+- making http request and handling response
